@@ -1,0 +1,59 @@
+.RightPanel{
+    z-index: 1;
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 1rem;
+    color: var(--textColor);
+    padding: 0.3rem 7rem;
+    margin-left: -3rem;
+    transition: all 0.7s ease-in-out;
+}
+
+.slide{
+    margin-left: -20rem;
+    transition: all 0.7s ease-in-out;
+}
+
+.header{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--white);
+}
+
+.header h3{
+    margin: 0.5rem;
+    margin-bottom: 0rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--textColor);
+}
+
+.header p{
+    margin: 0.5rem;
+    margin-bottom: 0rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--textColorGray);
+}
+
+.header a{
+    margin: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 0.9rem;
+}

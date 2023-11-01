@@ -1,0 +1,38 @@
+.optionsBar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 3.2rem;
+  height: 100%;
+  background-color: var(--white);
+  z-index: 999;
+  border-right: 1px solid var(--lightGray);
+}
+
+.optionsBar_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 50%;
+  background-color: var(--white);
+}
+
+.optionsBar_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 50%;
+  background-color: var(--white);
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 3rem;
+  background-color: var(--white);
+}

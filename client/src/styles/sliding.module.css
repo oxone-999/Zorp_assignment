@@ -1,0 +1,83 @@
+.SlidingMenu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16rem;
+  height: 100%;
+  background-color: var(--white);
+  z-index: 4;
+}
+
+.SlidingMenuOpen {
+  transform: translateY(0);
+  transition: all 0.7s ease-in-out;
+}
+
+.SlidingMenuClose {
+  transform: translateX(-17rem);
+  transition: all 0.7s ease-in-out;
+}
+
+.slidingContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: var(--white);
+  height: 100%;
+  width: 15rem;
+  color: var(--textColor);
+  padding: 1rem;
+  z-index: 3;
+  border-right: 1px solid var(--lightGray);
+}
+
+.slidingContent h2 {
+  margin: 0rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 0.5rem;
+}
+
+.slidingContent p {
+  width: 80%;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  margin: 0;
+}
+
+.slidingContent p:hover {
+  background-color: var(--lightGrayHover);
+}
+
+.sliderSwitch {
+  position: absolute;
+  top: 2rem;
+  right: -1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem 0rem;
+  z-index: 3;
+}
+
+.sliderSwitch button {
+  width: 0.5rem;
+  height: 1rem;
+  background-color: var(--white);
+  border-radius: 0 5rem 5rem 0;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.08);
+  outline: none;
+}
